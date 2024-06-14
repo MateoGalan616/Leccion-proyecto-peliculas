@@ -1,0 +1,59 @@
+body {
+  background-image: url('fondo2.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  background-color: #343a40; /* Color de fondo para la cabecera */
+  color: rgb(231, 247, 11);
+  padding: 1rem;
+  text-align: center;
+}
+
+.site-layout-background {
+  background: #e2ed0c; /* Fondo para el contenido y la barra lateral */
+}
+
+/* Estilos para la barra lateral */
+.ant-layout-sider {
+  overflow: auto;
+  height: 26vh;
+  position: fixed;
+  left: 0;
+  background-color: #6d6b6b;/* Color de fondo para la barra lateral */
+}
+
+/* Estilos para el contenido principal */
+.ant-layout-content {
+  margin-left: 50px; /* Ajusta según el ancho de tu barra lateral */
+  padding: 25px;
+  min-height: 280px;
+  background: #ffffff; /* Fondo para el contenido */
+}
+
+.header {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  background-color: #fffdfd;
+  
+}
+.site-layout-background {
+  margin-top: 150px; /* Ajusta este valor según la altura de tu cabecera */
+}
+
+/* Asumiendo que 'header-image' es la clase de tu imagen */
+.header-image {
+  position: absolute; /* o 'fixed' si quieres que se mantenga en la parte superior incluso al desplazarse */
+  top: 0; /* Alinea la imagen en la parte superior de la página */
+  left: 0; /* Alinea la imagen a la izquierda de la página */
+  width: 18%; /* Opcional: si deseas que la imagen se extienda a lo ancho de la página */
+  height: auto; /* Mantiene la proporción de la imagen */
+  z-index: 2; /* Asegúrate de que la imagen se muestre por encima de otros elementos */
+}
+
+.header {
+  background-color: #343a40 !important; /* Forzará el color de fondo para la cabecera */
+}
+
